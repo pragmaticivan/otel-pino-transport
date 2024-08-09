@@ -1,6 +1,6 @@
-import abstractTransportBuild from 'pino-abstract-transport'
 import { Logger, LogRecord, logs } from '@opentelemetry/api-logs';
-import type { OtelPinoOptions } from './types'
+import type { OtelPinoOptions } from './types';
+const abstractTransportBuild = require('pino-abstract-transport');
 
 /**
  * If the source format has only a single severity that matches the meaning of the range
