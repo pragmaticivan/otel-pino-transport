@@ -1,6 +1,6 @@
 {
   "name": "otel-pino-transport",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pino OpenTelemetry Transport for log-sdk",
   "main": "lib/index.js",
   "typings": "lib/index",
