@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/pragmaticivan/otel-pino-transport/compare/v1.0.3...v1.0.4) (2024-08-09)
+
+
+### Bug Fixes
+
+* tsconfig target ([b34106e](https://github.com/pragmaticivan/otel-pino-transport/commit/b34106ef1223e9832e3e460e0d46a2c817b74e3a))
+
 ## [1.0.3](https://github.com/pragmaticivan/otel-pino-transport/compare/v1.0.2...v1.0.3) (2024-08-09)
 
 
