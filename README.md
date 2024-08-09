@@ -39,12 +39,18 @@ loggerProvider.addLogRecordProcessor(
 );
 logsAPI.logs.setGlobalLoggerProvider(loggerProvider);
 
-const logger = pino.createLogger({
-  level: 'info',
-  transports: [
-    new OpenTelemetryTransport()
-  ]
-});
+const transport = pino.transport({
+  target: 'otel-pino-transport'
+})
+
+const logger = pino(transport)
+
+transport.on('ready', () => {
+  setInterval(() => {
+    logger.info('test log')
+  }, 1000)
+})
+
 ```
 
 ### Supported versions
@@ -64,7 +70,7 @@ Apache 2.0 - See [LICENSE][license-url] for more information.
 [discussions-url]: https://github.com/pragmaticivan/otel-pino-transport/discussions
 [license-url]: https://github.com/pragmaticivan/otel-pino-transport/blob/main/LICENSE
 [license-image]: https://img.shields.io/badge/license-Apache_2.0-green.svg?style=flat
-[npm-url]: https://www.npmjs.com/package/otel-winston-transport
+[npm-url]: https://www.npmjs.com/package/otel-pino-transport
 [npm-img]: https://badge.fury.io/js/%40opentelemetry%2Fwinston-transport.svg
 
 ## Inspirations
