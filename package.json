@@ -4,6 +4,7 @@
   "description": "Pino OpenTelemetry Transport for log-sdk",
   "main": "lib/index.js",
   "typings": "lib/index",
+  "type": "commonjs",
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "tsc",
