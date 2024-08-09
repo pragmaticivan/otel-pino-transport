@@ -83,3 +83,4 @@ function toOpenTelemetry(sourceObject, { messageKey, levels, severityNumberMap =
 
 module.exports = otelPino
 module.exports.otelPino = otelPino
+module.exports.default = otelPino
