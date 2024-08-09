@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/pragmaticivan/otel-pino-transport/compare/v1.0.4...v1.0.5) (2024-08-09)
+
+
+### Bug Fixes
+
+* esm fix ([7b9ee33](https://github.com/pragmaticivan/otel-pino-transport/commit/7b9ee338a401e849269302c8119eb9984c732450))
+
 ## [1.0.4](https://github.com/pragmaticivan/otel-pino-transport/compare/v1.0.3...v1.0.4) (2024-08-09)
 
 
