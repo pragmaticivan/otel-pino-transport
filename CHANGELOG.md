@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.6](https://github.com/pragmaticivan/otel-pino-transport/compare/v1.0.5...v1.0.6) (2024-08-09)
+
+
+### Bug Fixes
+
+* move otel api package to deps ([cd5d1a4](https://github.com/pragmaticivan/otel-pino-transport/commit/cd5d1a402a7e93ab82a11996c2fc225129baa5cc))
+* update pkg lock ([892211b](https://github.com/pragmaticivan/otel-pino-transport/commit/892211b8f87a0b3834bcaf954ca5329a102e4736))
+
 ## [1.0.5](https://github.com/pragmaticivan/otel-pino-transport/compare/v1.0.4...v1.0.5) (2024-08-09)
 
 
