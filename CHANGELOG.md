@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/pragmaticivan/otel-pino-transport/compare/v1.0.2...v1.0.3) (2024-08-09)
+
+
+### Bug Fixes
+
+* temp pino abstract transport from require ([183f777](https://github.com/pragmaticivan/otel-pino-transport/commit/183f777e069fc112ab2f6bf236a980be792ce971))
+
 ## [1.0.2](https://github.com/pragmaticivan/otel-pino-transport/compare/v1.0.1...v1.0.2) (2024-08-09)
 
 
