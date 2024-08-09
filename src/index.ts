@@ -81,5 +81,5 @@ function toOpenTelemetry(sourceObject, { messageKey, levels, severityNumberMap =
   }
 }
 
-export default otelPino
-export type { OtelPinoOptions }
+module.exports = otelPino
+module.exports.otelPino = otelPino
