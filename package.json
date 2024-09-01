@@ -63,7 +63,7 @@
     ]
   },
   "dependencies": {
-    "@opentelemetry/api-logs": "^0.52.1",
+    "@opentelemetry/api-logs": "^0.53.0",
     "pino-abstract-transport": "^1.2.0"
   }
 }
